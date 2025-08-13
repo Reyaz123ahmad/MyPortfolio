@@ -23,10 +23,7 @@ const formSchema=new mongoose.Schema(
             maxLength:200
 
         },
-        statuses:[{
-            type:mongoose.Schema.Types.ObjectId,
-            ref:'Status'
-        }],
+        
         createdAt:{
             type:Date,
             required:true,
